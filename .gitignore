@@ -1,0 +1,10 @@
+# Compiled files
+public/js/
+
+# NPM modules
+node_modules/
+
+.calva/
+.clj-kondo/
+.lsp/
+.shadow-cljs/

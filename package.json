@@ -1,0 +1,15 @@
+{
+    "name": "life",
+    "version": "1.0.0",
+    "dependencies": {
+        "babylonjs": "6.37.1"
+    },
+    "devDependencies": {
+        "shadow-cljs": "^2.26.2",
+        "source-map-support": "^0.5.21"
+    },
+    "scripts": {
+        "watch": "shadow-cljs watch life",
+        "release": "shadow-cljs release life"
+    }
+}
