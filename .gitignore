@@ -1,6 +1,5 @@
 # Compiled files
-public/js/cljs-runtime/
-public/js/manifest.edn
+public/js
 
 # NPM modules
 node_modules/
