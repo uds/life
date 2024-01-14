@@ -37,6 +37,9 @@
         scene  (bb/Scene. engine)
         camera (create-camera scene)]
     (reset! !babylon-engine engine)
+    
+    ;; prevents bubbling of the wheel events to the parent element so the parent doesn't scroll when mouse is over the canvas.
+    (.addEventListener canvas "wheel" (fn [e] (.preventDefault e)))
 
     (.attachControl camera canvas true)
 
