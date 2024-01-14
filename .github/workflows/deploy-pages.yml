@@ -40,8 +40,8 @@ jobs:
       - name: Build static MD pages
         uses: actions/jekyll-build-pages@v1
         with:
-          source: "public"
-          destination: "public"
+          source: "docs"
+          destination: "public/pages"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
